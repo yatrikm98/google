@@ -1,0 +1,130 @@
+.mainDivPortal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+}
+
+.outergraydiv {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+}
+
+.innerDiv {
+    background-color: white;
+    width: 512px;
+    height: 281px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+.shortcut {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.modalForm {
+    margin-top: 25px;
+}
+
+.commonformdiv {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.modalInput {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(225, 227, 225);
+    border: 0px;
+    position: relative;
+}
+
+.inputDivModal {
+    position: relative;
+    border: none;
+    background-color: white;
+    width: 100%;
+
+}
+
+.inputDivModal::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.175rem;
+    background-color: #0B57D0FF;
+    transition: transform 0.3s;
+    transform: scale(0, 1);
+}
+
+.inputDivModal:focus-within::after {
+    transform: scale(1, 1);
+}
+
+
+.modalInput:focus {
+    outline: none;
+}
+
+.buttonDiv {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cancelButton,.buttonDone {
+    height: 36px;
+    width: 78px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cancelButton {
+    margin-right: 8px;
+    border: 1px solid #a8c7faff;
+    color: rgb(11, 87, 208);
+
+}
+
+.cancelButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.buttonDone {
+    background-color: rgb(11, 87, 208);
+    color: white;
+    font-weight: 600;
+}
+
+.buttonDone:hover {
+    background-color: rgb(41, 117, 238);
+}
+
+.buttonDone:disabled {
+    opacity: 0.3;
+}

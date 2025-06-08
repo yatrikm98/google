@@ -1,0 +1,197 @@
+.appiconmaindiv {
+  position: absolute;
+  right: -40px;
+  top: 100%;
+  width: 340px;
+  height: 440px;
+  border-right: 0px;
+  z-index: 3;
+  background-color: #EAEEF6;
+  border-radius: 30px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+
+.appiconmaindiv::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 30px;
+  margin-top: 34px;
+
+}
+
+.appiconmaindiv::-webkit-scrollbar-track {
+  background-color: #EAEEF6;
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+
+.appiconmaindiv::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 31, 31, .16)
+}
+
+
+.firstDiv {
+  padding: 12px;
+  background-color: #F8FAFE;
+  border: 8px solid #EAEEF6;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-radius: 30px;
+}
+
+.cssforentirerow {
+  display: flex;
+  height: 90px;
+
+}
+
+.appiconsinglediv {
+  width: 90px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  cursor: pointer;
+  height: 70px;
+}
+
+
+.appiconsinglediv:hover {
+  border-radius: 20px;
+  background-color: #EAEEF6;
+}
+
+.imagediv {
+  width: 48px;
+  height: 48px;
+  background-image: url('../../images//css_sprites.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.bg-Search {
+  background-position: -10px -966px;
+}
+
+.bg-Maps {
+  background-position: -10px -557px;
+}
+
+
+.bg-Play {
+  background-position: -6px -898px;
+}
+
+.bg-Gmail {
+  background-position: -10px -489px;
+}
+
+.bg-Youtube {
+  background-position: -10px -1168px;
+}
+
+.bg-Drive {
+  background-position: -10px -354px;
+}
+
+.bg-Calendar {
+  background-position: -10px -150px;
+}
+
+.bg-News {
+  background-position: -10px -694px;
+}
+
+.bg-Meet {
+  background-position: -10px -624px;
+}
+
+.bg-Shopping {
+  background-position: -10px -1237px;
+}
+
+.bg-Translate {
+  background-position: -10px -1098px;
+}
+
+.bg-Books {
+  background-position: -10px -81px;
+}
+
+
+.bg-Blogger {
+  background-position: -10px -10px;
+}
+
+.bg-Photos {
+  background-position: -10px -830px;
+}
+
+
+.bg-Docs {
+  background-position: -10px -286px;
+}
+
+
+.bg-Contacts {
+  background-position: -10px -218px;
+}
+
+.bg-Finance {
+  background-position: -10px -421px;
+}
+
+.bg-Sheets {
+  background-position: -10px -1034px;
+}
+
+.bg-Password {
+  background-position: -10px -758px;
+}
+
+.divtitle {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  color: rgb(32, 33, 36);
+  line-height: 18px;
+}
+
+.noHover:hover {
+  background-color: #F8FAFE;
+}
+
+.secondDiv {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #F8FAFE;
+  border: 8px solid #EAEEF6;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 30px;
+}
+
+
+.passwordTitle {
+  display: none;
+}
+
+.passwordDiv{
+  height: 75px;
+}
+
+.passwordDiv:hover .specialDiv {
+  display: none;
+}
+
+.passwordDiv:hover .passwordTitle {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+
+}

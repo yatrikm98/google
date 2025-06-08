@@ -1,0 +1,52 @@
+.maindivgoogle {
+    width: 272px;
+    height: 168px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 38px;
+  }
+
+  .googleNameDiv {
+    width: 272px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .commonSpan {
+    font-size: 90px;
+    font-weight: 600;
+  }
+  
+  
+  .gSpan {
+    color: rgb(66, 133, 244);
+    
+  }
+  
+  .oSpan {
+    color: rgb(234, 67, 53);
+    
+  }
+  
+  .o1Span {
+    color: rgb(251, 188, 5);
+    
+  }
+  
+  .g1Span {
+    color: rgb(66, 133, 244);
+    
+  }
+  
+  .lSpan {
+    color: rgb(52, 168, 83);
+  
+  }
+  
+  .eSpan {
+    color: rgb(234, 67, 53);
+    transform: rotate(-20deg);
+    margin-left: -5px;
+  }

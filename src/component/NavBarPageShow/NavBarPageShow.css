@@ -1,0 +1,348 @@
+.navigationpageshow {
+    border-bottom: 1px solid #d2d2d2;
+    padding-top: 20px;
+  }
+  
+  .upperpartnavbarpageshow {
+    min-height: 68px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .googlename {
+    width: 160px;
+    height: 37px;
+    /* border: 1px solid black; */
+  }
+  
+  .googlename a {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .commonspanletter {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .gInitial {
+    color: rgb(66, 133, 244);
+  
+  }
+  
+  .oInitial {
+    color: rgb(234, 67, 53);
+  
+  }
+  
+  .o1Initial {
+    color: rgb(251, 188, 5);
+  
+  }
+  
+  .g1Initial {
+    color: rgb(66, 133, 244);
+  
+  }
+  
+  .lInitial {
+    color: rgb(52, 168, 83);
+  
+  }
+  
+  .eInitial {
+    color: rgb(234, 67, 53);
+    display: inline-block;
+    transform: rotate(-20deg);
+    margin-left: -2px;
+  }
+  
+  
+  .pageshowformdiv {
+    /* border: 1px solid black; */
+    width: calc(100% - 172px - 160px);
+  
+  }
+  
+  .formpageshow {
+    max-width: 861px;
+    /* border: 1px solid black; */
+    height: 46px;
+    border-radius: 40px;
+    position: relative;
+  }
+  
+  .formpageshow input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13.5px;
+    border-radius: 40px;
+    border: 0px;
+    box-shadow: 0 1px 6px 0 #20212447;
+    font-size: 16px;
+  }
+  
+  .formpageshow input:focus{
+    outline: none;
+  }
+  .diviconpageshownavbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border: 1px solid black; */
+    width: 180px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .closeiconnavbarpageshowdiv {
+    /* border: 1px solid black; */
+    border-right: 1px solid #d2d2d2;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .closeiconnavbarpageshow {
+    font-size: 28px;
+  
+  }
+  
+  .voiceiconnavbarpageshowdiv {
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .voiceiconpageshow {
+    width: 30px;
+    height: 30px;
+    /* font-size: 25px; */
+  }
+  
+  .imageiconnavbarpageshowdiv {
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageiconpageshow {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .searchiconnavbarpageshowdiv {
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .searchiconpageshow {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .iconspageshowdiv {
+    width: 172px;
+    height: 46px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .timericondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  
+  .timericondiv:hover {
+    background-color: #E2E3E3;
+  }
+  
+  .timericon {
+    font-size: 20px;
+  }
+  
+  .middlepartnavbarpageshow {
+    /* border: 1px solid black; */
+    margin-left: 180px;
+    /* height: 20px; */
+    max-width: 841px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .firstdivlowerpart {
+    display: flex;
+  }
+  
+  .firstdivlowerpart div {
+    padding: 0px 12px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #70757a;
+    font-family: Google Sans, Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .seconddivlowerpart {
+    padding: 0px 12px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #70757a;
+    font-family: Google Sans, Arial, sans-serif;
+  }
+  
+  .morediv,
+  .seconddivlowerpart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .firstdivlowerpart .all {
+    color: #1f1f1f !important;
+    position: relative;
+    border-bottom: 2px solid black;
+  }
+  
+  
+  
+  .firstdivlowerpart div:hover,.seconddivlowerpart:hover {
+    color: black;
+  }
+  
+  .lowerpartnavbar {
+    margin-left: 180px;
+    max-width: 1100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .leftpartlowernavbar {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+  
+  }
+  .leftpartlowernavbar div {
+    display: flex;
+    align-items: center;
+    color:#5e5e5e;
+  }
+  
+  .anytimediv {
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-family: Google Sans, Arial, sans-serif;
+    cursor: pointer;
+  }
+  .anytimediv div {
+    margin-right: 5px;
+  }
+  
+  .allresultsdiv{
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-family: Google Sans, Arial, sans-serif;
+    cursor: pointer;
+  
+  }
+  .allresultsdiv div{
+  margin-right: 5px;
+  }
+  
+  .advancedsearchdiv {
+    cursor: pointer;
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-family: Google Sans, Arial, sans-serif;
+  }
+  
+  
+  .leftpartlowernavbar div:hover {
+    color: black;
+  }
+  
+  .rightpartlowernavbar {
+    padding-right: 8px;
+    font-family: Google Sans, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+
+  
+  @media only screen and (max-width: 1300px) {
+    .lowerpartnavbar{
+      display: flex;
+      flex-direction: column;
+    }
+    }
+  
+  
+  @media only screen and (max-width: 900px) {
+    .middlepartnavbarpageshow {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    }
+  
+  
+  @media only screen and (max-width: 700px) {
+  .upperpartnavbarpageshow{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pageshowformdiv{
+    margin-top: 10px;
+    width:90%
+  }
+  
+  .iconspageshowdiv{
+    margin-top: 10px;
+    margin-left: auto;
+  }
+  
+  
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+   .firstdivlowerpart {
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .seconddivlowerpart{
+    width: 80px;
+   }
+    }
+  

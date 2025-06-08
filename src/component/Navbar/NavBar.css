@@ -1,0 +1,20 @@
+.navbarmaindiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.gmaildiv,.imagesdiv {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 450;
+}
+
+.gmaildiv:hover,.imagesdiv:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+

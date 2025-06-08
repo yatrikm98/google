@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.addclickablediv {
+    cursor: pointer;
+    width: 112px;
+    height: 112px;
+    border: 1px solid transparent;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.addclickablediv:hover {
+    background-color: rgb(232,232,232);
+}
+
+
+.threedotsicon {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+.threedotsicon:hover {
+    background-color:rgb(192,192,192);
+}
+
+.addclickablediv:hover .threedotsicon {
+    opacity: 1;
+}
+
+.imageplusdiv {
+    border: 10px solid rgba(225, 227, 225, 1.00);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #d3e3fdff;
+
+}
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.initialdiv {
+    color: white;
+    font-size: 15px;
+}
+
+.shortcutdivname {
+    margin-top: 15px;
+    width: 110px;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 13px;
+}

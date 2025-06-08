@@ -1,0 +1,84 @@
+.maindatadiv {
+max-width: 652px;
+margin-left: 180px;
+padding-bottom: 20px;
+}
+
+.divPerson {
+width: 632px;
+height: 38px;
+display: flex;
+align-items: center;
+}
+
+.imageitemdiv {
+margin-right: 5px;
+}
+
+.imageitem {
+border-radius: 50%;
+width: 30px;
+height: 30px;
+}
+
+.name {
+font-size: 14px;
+line-height: 20px;
+color: #202124;
+/* font-weight: normal; */
+font-weight: 450;
+font-family: Arial, sans-serif;
+
+}
+
+.folowersorurl {
+font-size: 12px;
+line-height: 18px;
+color: #4d5156;
+font-weight: 500;
+font-style: normal;
+font-family: Arial, sans-serif;
+}
+
+.bigname {
+min-height: 31px;
+width: 100%;
+margin-top: 5px;
+margin-bottom: 0px;
+font-size: 20px;
+color: #1A0DAB;
+font-weight: 500;
+line-height: 1.3;
+font-family: Arial, sans-serif;
+}
+
+.descriptionperson {
+width: 100%;
+font-size: 14px;
+color: #474747;
+font-family: Arial, sans-serif;
+}
+
+.divtohover {
+    cursor: pointer;
+}
+
+.divtohover:hover {
+    text-decoration: underline;
+}
+
+.notInListMainDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .maindatadiv {
+        margin: 0 auto;      
+        }
+  }

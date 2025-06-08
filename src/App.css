@@ -1,0 +1,43 @@
+.mainDivGoogle {
+  height: 100vh;
+}
+
+.googleDiv {
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+.main1 {
+  border: 1px solid black;
+/* height: 60px; */
+}
+
+.main1 div {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.main1 div:hover {
+  background-color: yellow;
+}
+
+.main1 div:last-child:hover {
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

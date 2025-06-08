@@ -1,0 +1,29 @@
+.optionsdiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    background-color: white;
+    padding: 8px 0;
+    z-index: 201;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.outerdivthreedots {
+    position: fixed;
+    inset: 0;
+    background-color: transparent;
+    z-index: 200;
+}
+
+.optionsdiv div {
+    padding: 8px 24px;
+    height: 20px;
+    font-size:13px;
+    display: flex;
+    align-items: center;
+}
+
+.optionsdiv div:hover {
+    background-color: rgb(232,232,232);
+}

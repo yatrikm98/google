@@ -1,0 +1,23 @@
+.iconDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+  }
+
+  .iconImage {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    padding: 0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+  }
+  
+  
+  .iconImage:hover {
+    border: 2px solid lightgray;
+  }

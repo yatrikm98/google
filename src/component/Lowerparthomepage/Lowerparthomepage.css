@@ -1,0 +1,96 @@
+.fixedlowerpart {
+    margin-top: 20px;
+    width: 90%;
+    position: absolute;
+    top: 253px;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerpart {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shortcutdiv {
+    cursor: pointer;
+    width: 112px;
+    height: 112px;
+    border: 1px solid transparent;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.shortcutdiv:hover {
+    background-color: rgb(232,232,232);
+}
+
+
+.shortcutdivname {
+    margin-top: 15px;
+    width: 110px;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+
+.imagePlusDiv {
+    border: 10px solid rgba(225, 227, 225, 1.00);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #d3e3fdff;
+
+}
+
+.plusimage {
+    font-size: 10px;
+}
+
+.plusimagediv {
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #d3e3fdff;
+
+}
+
+.shortcutdiv:hover .plusimagediv{
+    opacity: 1;
+}
+
+.initialDiv {
+    color: white;
+    font-size: 15px;
+}
+
+
+.hideshortcutdiv {
+    display: none;
+}
+
+
+
+
